@@ -3,22 +3,22 @@
 Make a kitchen timer.  Modify the `countdown()` function in [countdown.js](countdown.js) to take a number of seconds, then print each second counting down to zero.
 
 ```javascript
-//enter the count down date using the format year/month/day
-countdown(2015, 2, 2);
+// Enter the date and time as a string in the following format.  Second parameter is the HTML id of element where you want
+//    the countdown to appear.
+CountDownTimer('02/02/2015 12:00 AM', 'countDown');
 
-// should print
-
-// Only 35 days, 4 hours, 15 minutes, 20 seconds left until Groundhog Day!
+// Should display on the index.html page something like:
+// GroundHog's Day will be in:
+// 13 days, 13 hrs, 16 mins, 21 secs
 ```
 
-## Levels
+## Levels                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
 
-1. Use global variable to keep track of time
+1. Do not use global variable to keep track of time
 1. Keep track of time *without* defining any global variables
 1. BONUS: don't define any new variables
 
 ## Documentation
 
-* [`setTimeout()`]( https://developer.mozilla.org/en-US/docs/DOM/window.setTimeout)
 * [`setInterval()`](https://developer.mozilla.org/en-US/docs/DOM/window.setInterval)
 * [`clearInterval()`](https://developer.mozilla.org/en-US/docs/Web/API/window.clearInterval)
